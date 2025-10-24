@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{parskip}
+
+
+\geometry{a4paper, margin=1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Linux} 
+\fancyfoot[C]{\thepage}
+
+\title{Basics Linux Commands}
+\author{0xSaad / Saad Almalki}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction to commands}
+
+There are many simple and basic commands such as :
+\begin{enumerate}
+    \item \textbf{ls} Using to show a list of all files and directories in same directory.
+    \item \textbf{cd} Using to enter another directory.
+\end{enumerate}
+
+And this commands can be used to other jobs with more optionals :
+
+\begin{enumerate}
+    \item \textbf{ls -l} Showing a long list of all files and directories and more details about it.
+    \item \textbf{ls -a} Showing a list of all files/directories with hidden and secret files and directories.
+    \item \textbf{ls -la} "ls -l" + "ls -a"
+    \item \textbf{cd ..} Back to the parent directory (the parent of current directory/folder)
+    \item \textbf{cd -} Back to the previous directory , You were in before the current on.
+\end{enumerate}
+
+
+
+\section{Create/Delete commands}
+\begin{enumerate}
+    \item \textbf{mkdir} Make a new directory
+    \item \textbf{rmdir} Remove a directory (It's required to be an empty directory).
+    \item \textbf{rm -r} Remove a directory and all files/directories on this directory.
+    \item \textbf{touch} Make a new file with file extension "touch main.py" -> Make a new python source code file
+    \item \textbf{nano} Editing an exist file
+    \item \textbf{rm} Remove a file
+\end{enumerate}
+
+
+
+\begin{flushright}
+Created by: Saad Almalki \\
+\end{flushright}
+
+\end{document}
