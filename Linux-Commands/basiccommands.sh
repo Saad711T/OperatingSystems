@@ -1,4 +1,4 @@
-# Basic commands appears on pdf file :
+#!/bin/bash
 ls
 
 ls -l
