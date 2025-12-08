@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}   % To control page margins
+\usepackage{fancyhdr}   % To customize the header and footer
+\usepackage{enumitem}   % For better lists
+\usepackage{setspace}   % For line spacing
+\usepackage{parskip}    % For better paragraph spacing
+
+\geometry{a4paper, margin=1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Operating Systems} 
+\fancyfoot[C]{\thepage}
+
+\title{Operating System Services}
+\author{0xSaad / Saad Almalki}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{OS Services}
+There's many services provided by the OS to the users and to the programs.
+\section{User Services}
+\begin{itemize}
+
+
+    \item User interface : Most Operating Systems have a user interface, CLI or GUI or even both and touchscreen UI.
+    \item Program execution : load program into memory and run it and terminate the processes.
+    \item I/O operations : May program require I/O Device to perform operations.
+    \item File-system manipulation : The system must be able to make files, directories, read, write, and delete them.
+    \item Communication : Processes may exchange information , In the same computer or between computers over a network.
+    \item Accounting : Keep track of resource usage by users.
+    \item Error detection : Continues monitor the systrm to detect potential errors.
+    \item Process and security : Allows and deny users , Manages the control access to the system.
+    \item Resource allocating : Allocate resources to processes as needed.
+\end{itemize}
+
+\section{System Calls}
+Programming interface to services provided by the OS ,And can be accessed via High-level API (Application Programming Interface).
+
+Most details of OS interface hidden from programmer by API.
+
+\subsection{Types of System Calls}
+\begin{itemize}
+    \item Process Control : end, abort, load, execute.
+    \item File Management : create, delete, open, close, read, write.
+    \item Device Management : request device, release device, read, write.
+    \item Information Maintenance : get time or date, get system data, set time or date.
+    \item Communication : create message, send message, receive message.
+    \item Protection : control access to resources.
+\end{itemize}
+
+\subsection{System Calls Examples}
+\begin{itemize}
+    \item Process Control : \textbf{fork(), exec(), wait(), exit()}
+    \item File Management : \textbf{open(), read(), write(), close()}
+    \item Device Management : \textbf{read(), write()}
+    \item Information Maintenance : \textbf{sleep(), alarm()}
+    \item Communication : \textbf{pipe()}
+    \item Protection : \textbf{chmod() , chown() , umask()}
+\end{itemize}
+
+\section{System Programs}
+System programs provides convenient environment for development and execute.
+
+Types of System Programs :
+\begin{itemize}
+    \item File management : copy, delete, rename, print, dump, list files.
+    \item Status information : date, time, system status.
+    \item File modification : text editors.
+    \item Programming language support : compilers, assemblers, debuggers.
+    \item Program loading and execution : load and run programs.
+    \item Communications : send, receive messages, use internet protocols.
+    \item Background services : print spooling, file servers, network management.
+    \item Application programs : word processors, spreadsheets, databases, video games. (Not part of OS and run by users)
+\end{itemize}
+
+\begin{flushright}
+Created by: Saad Almalki \\
+\end{flushright}
+
+\end{document}
