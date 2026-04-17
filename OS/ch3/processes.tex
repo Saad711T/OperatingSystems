@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}   % To control page margins
+\usepackage{fancyhdr}   % To customize the header and footer
+\usepackage{enumitem}   % For better lists
+\usepackage{setspace}   % For line spacing
+\usepackage{parskip}    % For better paragraph spacing
+
+\geometry{a4paper, margin=1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Operating Systems} 
+\fancyfoot[C]{\thepage}
+
+\title{Processes}
+\author{0xSaad / Saad Almalki}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Process is program in execution , So Process is active but Program is passive.
+
+Process need resources to complete tasks.
+
+\section{Program code}
+Also called a text section 
+
+\subsection{Processes summary}
+\begin{itemize}
+    \item Stack : Containing temporary data
+    \item Heap : Containing dynamic allocated memory
+    \item Data : Containing global variables
+    \item Text : Program code
+\end{itemize}
+
+\subsection{Process state}
+\begin{itemize}
+    \item new : \textbf{New process was created}
+    \item ready : \textbf{Process is ready to executing}
+    \item running : \textbf{Process is executing}
+    \item waiting : \textbf{Process is waiting to being ready again}
+    \item terminated : \textbf{Process has finished his execution}
+\end{itemize}
+
+\section{Timer}
+OS using timer to prevent errors or processes hogging resources
+
+Timer is set to interrupts computer after some time period.
+
+
+\begin{flushright}
+Created by: Saad Almalki \\
+\end{flushright}
+
+\end{document}
