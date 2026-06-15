@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}   % To control page margins
+\usepackage{fancyhdr}   % To customize the header and footer
+\usepackage{enumitem}   % For better lists
+\usepackage{setspace}   % For line spacing
+\usepackage{parskip}    % For better paragraph spacing
+
+\geometry{a4paper, margin=1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Operating Systems} 
+\fancyfoot[C]{\thepage}
+
+\title{CPU Scheduling Algorithms}
+\author{0xSaad / Saad Almalki}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{itemize}
+    \item FCFS (First come First served) : Non preemptive
+
+  \itemSJF (Shortest Job First) two versions :
+
+1. SJF : No preemptive
+
+2. SRTF (Shortest remaining time first) : Preemptive
+
+  \item Priorty Scheduling two versions :
+
+1. Preemptive Priorty Scheduling
+2. Non-Preemptive Priorty Scheduling
+
+  \item Round Robin (RR) : Preemptive
+\end{itemize}
+
+
+\begin{flushright}
+Created by: Saad Almalki \\
+\end{flushright}
+
+\end{document}
