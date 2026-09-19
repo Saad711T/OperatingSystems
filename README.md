@@ -17,4 +17,10 @@ Projects for "501352-3 and 501453-3 Courses in Taif University"
 
 ---
 
+### Related Subjects
+
+- [Networking](https://github.com/Saad711T/Data-Communications-and-Networking)
+- [Distributed Systems](https://github.com/Saad711T/DistributedSystems)
+- [Data Warehouses](https://github.com/Saad711T/Data-Warehouses)
+
 ![image](https://0xsaadcontainer.netlify.app/images/osbanner.png)
